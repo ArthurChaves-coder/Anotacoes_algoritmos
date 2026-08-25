@@ -62,6 +62,29 @@ vector<Veiculo> garagem --> cria uma lista dinâmica
 
 .vector<Veiculo>garagem so aceita informações que foram configuradas no struct;
 
+## 17/08/2026
+
+Nessa aula, apenas fizemos apenas exercicios de struct;
+
+## 24/08/2026
+
+ifstream serve para ler arquivos em outro local para utilizar no código
+
+int main() {
+    // Abre o arquivo para leitura
+    ifstream arquivo("texto.txt");
+    
+    string linha;
+     Lê linha por linha até o final do arquivo
+    while (getline(arquivo, linha)) {
+        cout << linha << endl;
+    }
+    
+    Fecha o arquivo liberando os recursos
+    arquivo.close();
+    return 0;
+}
+
 
 
 
