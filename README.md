@@ -77,15 +77,15 @@ ifstream serve para ler arquivos em outro local para utilizar no código
 using namespace std;
 
 int main() {
-    // Abre o arquivo para leitura
+    // Abre o arquivo para leitura:
     ifstream arquivo("texto.txt");
     
    string linha;
-    // Lê linha por linha até o final do arquivo
+    // Lê linha por linha até o final do arquivo:
     while (getline(arquivo, linha)) {
         cout << linha << endl;
 
-Fecha o arquivo liberando os recursos
+Fecha o arquivo liberando os recursos:
     arquivo.close();
     return 0;
 
