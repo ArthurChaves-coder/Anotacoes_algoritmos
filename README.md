@@ -80,17 +80,14 @@ int main() {
     // Abre o arquivo para leitura
     ifstream arquivo("texto.txt");
     
-    string linha;
+   string linha;
     // Lê linha por linha até o final do arquivo
     while (getline(arquivo, linha)) {
         cout << linha << endl;
-    }
-    
-    // Fecha o arquivo liberando os recursos
+
+Fecha o arquivo liberando os recursos
     arquivo.close();
     return 0;
-}
-
 
 
 
