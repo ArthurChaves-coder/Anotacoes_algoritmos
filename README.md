@@ -89,6 +89,16 @@ Fecha o arquivo liberando os recursos:
     arquivo.close();
     return 0;
 
+## 14/09/2026
+
+Sistema computacional:
+
+Programa tem variáveis que utilizam memória principal e arquivos(JSON, CSV, SGBD) que usam memória secundária;
+
+Procurador --> leitor
+Procurador --> escritor
+
+
 
 
 
